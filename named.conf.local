@@ -1,0 +1,10 @@
+zone "example.com" {
+    type master;
+    file "/etc/named/zones/db.forward";
+};
+
+zone "31.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/named/zones/db.reverse";
+};
+
